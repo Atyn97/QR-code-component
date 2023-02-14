@@ -1,0 +1,70 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.background {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg");
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.centre-box {
+    display: flex;
+    background-color: #fffffd;
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    margin:0;
+    top: 10%;
+    left: 5%;
+    box-shadow: 8px 8px 5px #aaaaaa
+}
+
+.QR-box {
+    background-color: #b6dde7;
+    width: 20em;
+    height: 31.25em;
+    position: relative;
+    margin:0;
+    top: 17%;
+    left: 40%;
+    box-shadow: 8px 8px 5px #aaaaaa
+}
+
+.QR {
+    width: 18em;
+    height: 18em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.circular {
+    border-radius: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+    .QR-box {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+h3 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 10px;
+}
